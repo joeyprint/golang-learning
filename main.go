@@ -2,11 +2,10 @@ package main
 
 import (
 	"fmt"
-	router "live/authentication/src"
+	"live/authentication/src/routers"
 )
 
 func main() {
 	fmt.Println("Hello World!")
-	router := router.Router()
-	router.Run(":8080")
+	routers.Router().Run(":8080")
 }
