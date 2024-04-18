@@ -1,14 +1,12 @@
 package user
 
 import (
-	"fmt"
 	"net/http"
 
 	"github.com/gin-gonic/gin"
 )
 
 func getUsers(context *gin.Context) {
-	fmt.Println("mock users %v", mockUsers)
 	context.IndentedJSON(http.StatusOK, mockUsers)
 }
 
