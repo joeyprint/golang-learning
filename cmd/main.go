@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"live/authentication/src/routers"
+	"live/authentication/routers"
 )
 
 func main() {

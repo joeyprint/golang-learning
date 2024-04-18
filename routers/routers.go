@@ -1,8 +1,7 @@
 package routers
 
 import (
-	"live/authentication/src/packages/user"
-
+	"live/authentication/pkg/user"
 	"github.com/gin-gonic/gin"
 )
 
